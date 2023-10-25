@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: whitesmoke;
+    background-image: url("images/pattern.jpg");
+    background-size: contain;
+    display:flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.header-container {
+    color: grey;
+    background-color:whitesmoke;
+    font-family: 'Barlow Condensed', sans-serif;
+    padding:20px 0;
+    display: flex;
+    justify-content: center;
+    border: 3px double grey;
+}
+
+.header {
+    padding:10px ;
+    margin:20px;
+    border-color: grey;
+    border-style: double;
+}
+
+
+.body-container {
+    color:grey;
+    display: flex;
+    justify-content: center;
+    padding: 5%;
+}
+
+.body {
+    width: 50%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:whitesmoke;
+    border: 3px double grey;
+}
+
+
+.right {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+
+.icon-grid-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .icon-grid {
+    width: 300px;
+    display: flex;
+
+  }
+  
+  .icon-grid-item {
+height: auto;
+  }
+
+  .profile {
+    height: auto;
+    width: 50%;
+  }
+
+  #skills {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-style: italic;
+  }
+
+  site {
+    flex: 1;
+  }
+
+  .footer-container {
+    color: grey;
+    background-color:whitesmoke;
+    font-family: 'Barlow Condensed', sans-serif;
+    padding:20px 0;
+    display: flex;
+    justify-content: center;
+    border: 3px double grey;
+  }
+
+  button {
+    width: 70px;
+    height: 40px;
+  }

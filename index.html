@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+
+    <head>
+        <title>My Website</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@200&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/c251ce2552.js" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    </head>
+
+
+    <body>
+        <site>
+        <div class="header-container">
+            <header class="header">
+                <h1 class="name">Camille Darrington</h1>
+                <h1 class="occupation">Full Stack Developer</h1>
+            </header>
+        </div>
+
+        <div class="body-container">
+            <div class="body">
+                <div class="profile">
+                    <img src="images/profile.jpg">
+                </div>
+                <div class="right">
+                    <div class="icon-grid-container">
+                        <div class="icon-grid">
+                            <button class="btn" onclick="window.location.href='https://twitter.com';"><i class="fa-brands fa-twitter"></i>Twitter</button>
+                            <button class="btn" onclick="window.location.href='https://facebook.com';"><i class="fa-brands fa-facebook"></i>Facebook</button>
+                            <button class="btn" onclick="window.location.href='https://instagram.com';"><i class="fa-brands fa-instagram"></i>Instagram</button>
+                            <button class="btn" onclick="window.location.href='https://linkedin.com';"><i class="fa-brands fa-linkedin"></i>LinkedIn</button>
+                            <button class="btn" onclick="window.location.href='https://github.com';"><i class="fa-brands fa-github"></i>GitHub</button>
+                        </div>
+                    </div>
+                <div class="skills">
+                    <h2 id="skills">Front-end Development<br>Back-end Development
+                    </h2>
+                </div>
+
+                <button onclick="loadRepo()" class=" ml-5  ">
+                        Click for Repos
+                      </button>
+                      
+                      <ul id="repo1" class="ml-5"></ul>
+            </div>
+                </div>
+            </div>
+        </site>
+
+
+        <div class="footer-container">
+            <footer class="footer">
+                <h2 class="contact">Contact Information: <i class="fa-solid fa-envelope"></i> cddar577@gmail.com</h2>
+            </footer>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
+
+  
